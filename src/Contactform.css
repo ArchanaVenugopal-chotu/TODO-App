@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+
+.contactform {
+    max-width: 45%;
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional: Border to define the container */
+    width: 300px; /* Set a fixed width or adjust as needed */
+    margin: 20px auto; /* Center the form on the page */
+}
+
+.contactform label {
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: bold; /* Make labels bold */
+}
+
+.contactform input {
+    width: 100%; /* Full width input fields */
+    padding: 8px; /* Inner padding for inputs */
+    margin-bottom: 12px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.submitted-data {
+    max-width: 45%;
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional: Border to define the container */
+    width: 300px; /* Set a fixed width or adjust as needed */
+    margin: 20px auto; /* Center the form on the page */
+}
